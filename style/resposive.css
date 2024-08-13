@@ -1,0 +1,15 @@
+@media screen and (max-width: 576px){
+    .navbar{
+        flex-direction: row;
+        padding: 52px 20px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    
+    }
+    
+    
+}
