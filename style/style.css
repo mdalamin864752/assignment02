@@ -1,6 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+ /* @import url('https://fonts.cdnfonts.com/css/miami'); */
+ 
+ @import url('https://fonts.cdnfonts.com/css/real-miami');
+
+
+                
+
+                
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -15,10 +24,13 @@
     box-sizing: border-box;
 }
 /* shared style */
+
+
 /* header section style start */
 .header-option{
     max-width: 1440px;
     margin: 0 auto;
+    /* height: 715px; */
     background-color: rgba(17, 17, 17, 1);
 }
 /* navbar style start */
@@ -28,6 +40,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 57px;
 }
 .nav-text{
     font-size: 2.25rem;
@@ -38,23 +51,29 @@
 .nav-menu{
     display: flex;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.082);
+    width: 358px;
 }
 .list-item{
     list-style: none;
     text-decoration: none;
     font-size: 1.125rem;
+    width: ;
 
 }
 #home-list-item{
     background-color: #E6533C;
     border: none;
     border-radius: 50px;
-    width: 90px;
+    width: 85px;
     text-align: center;
     padding-right: 20px;
     padding-top: 8px;
     padding-bottom: 8px;
     font-weight: 600;
+    margin-left: 5px;
 }
 .list-item-menu{
     text-decoration: none;
@@ -66,4 +85,103 @@
     color: white;
     display: none;
 }
-/* navbar style end */
+/* health style start */
+.health{
+    display: flex;
+    gap: 90px;
+}
+.health-container{
+    width: 600px;
+    margin-left: 170px;
+    margin-top: 90px;
+   
+}
+.health-title{
+    font-size: 4.875rem;
+    color: #FFFFFF;
+    line-height: normal;
+}
+.health-description{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+.join-btn{
+    background-color: #E6533C;
+    border: none;
+    border-radius: 43px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 210px;
+    height: 50px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.download-btn{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 43px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 210px;
+    height: 50px;
+    color: #FFFFFF;
+}
+
+.health-shape{
+    font-family: 'Real Miami', sans-serif;
+    font-weight: normal;                                              
+}
+/* health img style start */
+.health-img{
+    position: relative;
+}
+.halth-img>img{
+    width: 100%;
+}
+.card1{
+    background-color: rgba(48, 48, 48, 0.54);
+    width: 206px;
+    height: 96px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.card-container{
+    display: flex;
+    gap: 15px;
+}
+.card-circle{
+    background-color: #E6533C;
+    width: 50px;
+    border-radius: 50%;
+}
+.card-description{
+    font-size: 1rem;
+    color: rgba(239, 237, 232, 0.65);
+}
+.card-title{
+    color:#FAFAF9 ;
+}
+.card2-container{
+    background-color: rgba(48, 48, 48, 0.54);
+    width: 195px;
+    height: 85px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.card1{
+    position: absolute;
+    bottom: 100px;
+}
+.card2{
+    position: absolute;
+    left: 220px;
+    bottom: 350px;
+}
+   
