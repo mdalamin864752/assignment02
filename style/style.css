@@ -374,14 +374,52 @@ input, select {
 .team{
     max-width: 1070px;
     margin: 0 auto;
-    border: 2px solid yellow;
 }
 .team-cotainer{
     max-width: 670px;
     margin: 0 auto;
-    border: 2px solid green;
+    text-align: center;
 }
 .team-title{
     font-size: 3rem;
     color: #FFFFFF;
+    
+}
+.team-description{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);;
+}
+.team-img-container{
+    max-width: 1060px;
+    /* max-height: 650px; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.team-img{
+    position: relative;
+}
+.team-img-title{
+    font-size: 1.10rem;
+    color: #FFFFFF;
+    position: absolute;
+    top: 190px;
+    left: 18px;
+}
+.team-img-subtitle{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);;
+    position: absolute;
+    top: 215px;
+    left: 18px;
+}
+.team-img>img{
+    width: 100%;
+    max-height: 80%;
+    border-radius: 18px;
 }
