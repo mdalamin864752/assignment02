@@ -23,8 +23,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* shared style */
 
+body{
+    background-color: black;
+}
+/* shared style */
+.primary-btn{
+    background-color: #E6533C;
+    border: none;
+    border-radius: 43px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 210px;
+    height: 50px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-right: 30px;
+    }
 
 /* header section style start */
 .header-option{
@@ -184,4 +199,189 @@
     left: 220px;
     bottom: 350px;
 }
-   
+/* main-section style start */
+.main-content{
+    margin: 0 auto;
+        
+}
+.main-content>section{
+    margin-top: 100px;
+}
+
+.habit{
+    max-width: 1044px;
+    margin: 0 auto;
+}
+.habit-container{
+    width: 670px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 187px 58px 158px;
+}
+.habit-title{
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+.habit-description{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.habit-img-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.img-item>img{
+   border-radius: 50%;
+}
+.habit-img-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.habit-img-description{
+    font-size: 0.90rem;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.5);
+}
+.img-content{
+   width: 231px;
+   text-align: center;
+}
+/* run section style start */
+.run-section{
+    max-width: 1060px;
+    margin: 0 auto;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 10px;
+}
+.run-container{
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    gap: 200px; 
+}
+.run-content{
+    width: 450px;
+    height: 290px;
+    margin-top: 40px;
+    margin-left: 54px;
+}
+.run-title{
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+.run-description{
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.5);
+}
+.run-img>img{
+    width: 100%;
+    border-radius: 15px;
+    height: 300px;
+}
+/* bmi-section style start */
+.bmi-container{
+    max-width: 670px;
+    margin: 0 auto;
+    text-align: left;
+}
+.bmi-title{
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+.bmi-description{
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+    display: flex;
+    gap: 150px;
+    /* background-color: #2b2b2b; */
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-left: 190px;
+}
+
+.bmi-chart {
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+}
+.bmi-calculator{
+    width: 570px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.form-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+}
+.form-container>select{
+    color: rgba(255, 255, 255, 0.6);
+}
+.selector2{
+    grid-column: 2 span;
+    
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+th{
+    color: #FFFFFF;;
+}
+td,p{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+}
+/* team section style start */
+.team{
+    max-width: 1070px;
+    margin: 0 auto;
+    border: 2px solid yellow;
+}
+.team-cotainer{
+    max-width: 670px;
+    margin: 0 auto;
+    border: 2px solid green;
+}
+.team-title{
+    font-size: 3rem;
+    color: #FFFFFF;
+}
